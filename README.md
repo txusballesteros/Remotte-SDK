@@ -1,4 +1,4 @@
-Remotte-SDK
+Remotte SDK
 ===========
 
 Remotte SDK for Android
