@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#000000"
+    tools:context="com.mobandme.remotte.app.RotationActivity">
+
+    <RelativeLayout
+        android:id="@+id/RotationView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#00ff00"
+        android:gravity="center|top">
+
+        <View android:layout_width="2dp"
+            android:layout_height="100dp"
+            android:background="#80000000" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

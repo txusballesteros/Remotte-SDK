@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_values">
+        <item>Sensors Demo</item>
+        <item>Rotation Demo</item>
+        <item>Shake Demo</item>
+    </string-array>
+</resources>
