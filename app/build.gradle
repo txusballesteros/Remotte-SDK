@@ -1,9 +1,5 @@
 apply plugin: 'com.android.application'
 
-repositories {
-    maven { url 'https://github.com/mobandme/maven-repo/raw/master/release' }
-}
-
 android {
     compileSdkVersion 19
     buildToolsVersion "20.0.0"
@@ -29,5 +25,5 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.mobandme.remotte:Remotte:0.1'
+    compile project(':sdk')
 }
